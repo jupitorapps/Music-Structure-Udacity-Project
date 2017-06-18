@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.first.project4musicstructure.hindi_song_ringtone"
+    style="@style/activityLayout">
+
+    <TextView
+        style="@style/headerTitleTextView"
+        android:text="@string/djMixHeader" />
+    <TextView
+        style="@style/headerTitleTextView"
+        android:text="@string/djMixRingtoneDetails"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <ImageView
+            style="@style/detailRingtoneThumbnail"
+            android:id="@+id/image1"
+            android:src="@drawable/bulleticon" />
+        <TextView
+            android:id="@+id/text1"
+            style="@style/detailsRingtoneTitleStyle"
+            android:layout_toRightOf="@+id/image1"
+            android:layout_toLeftOf="@+id/playicon1"
+            android:text="@string/djmixone" />
+        <ImageView
+            android:id="@+id/playicon1"
+            style="@style/playIconStyle"
+            android:src="@drawable/playicon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/image2"
+            style="@style/detailRingtoneThumbnail"
+            android:src="@drawable/bulleticon"/>
+        <TextView
+            android:id="@+id/text2"
+            style="@style/detailsRingtoneTitleStyle"
+            android:layout_toRightOf="@+id/image2"
+            android:layout_toLeftOf="@+id/playicon2"
+            android:text="@string/djmixtwo" />
+        <ImageView
+            android:id="@+id/playicon2"
+            style="@style/playIconStyle"
+            android:src="@drawable/playicon" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="@string/realAppInfo"/>
+
+    <Button
+        android:id="@+id/paymentButton"
+        style="@style/navigationButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:text="@string/buyButton"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp">
+
+        <Button
+            style="@style/navigationButtonStyle"
+            android:id="@+id/buttonToHomeScreen"
+            android:text="@string/home" />
+        <Button
+            style="@style/navigationButtonStyle"
+            android:id="@+id/buttonToAnimalSound"
+            android:layout_alignParentRight="true"
+            android:text="@string/animalsSound" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

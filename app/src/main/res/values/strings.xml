@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Musical Structure: Ring Tones</string>
+    <string name="hindiSongRingtone">Hindi Song Ringtones</string>
+    <string name="djMixRingtone">DJ Mix Ringtones</string>
+    <string name="animalsSound">Animals Sounds</string>
+    <string name="otherSounds">Other Sounds</string>
+    <string name="title_activity_hindi_song">hindiSongActivity</string>
+    <string name="title_activity_hindi_song_ringtones">hindi_song_ringtones</string>
+    <string name="ringtoneStore">Ringtone Store</string>
+    <string name="ringtoneStoreDetails">Find Ringtones of your taste. Play and Download</string>
+    <string name="hindiSongRingtoneHeader">Hindi Song Ringtones</string>
+    <string name="hindiSongRingtoneDetails">Ringtones from Hindi songs are here. We cut best part of the song that can be made ringtone and make you available. Get now enjoy.</string>
+    <string name="djMixHeader">DJ Mix Ringtones</string>
+    <string name="djMixRingtoneDetails">Mix of Song - DJ Tones are here. Heavy sounds, creatives sounds combined with song, makes a perfect ringtone for the rock stars. </string>
+    <string name="animalSoundRingtoneHeader">Animal Sound Ringtones</string>
+    <string name="animalSoundRingtoneDetails">Tiger, Elephant, Deer all such animals sound in your phone. Scare your friends with the natural animal sounds</string>
+    <string name="otherSoundRingtoneHeader">Other Sound Ringtones</string>
+    <string name="otherSoundRingtoneDetails">Boom, Dhoom, Dhoooo, Foooo and all sounds. Creatively composed for your phone. Sometimes beautiful , sometimes scary all kinds of creative sounds are here.</string>
+    <string name="home">Home</string>
+    <string name="realAppInfo">For Creating Real App:
+        I will create ringtones and host it in my website http://pradeepbehera.in/, take
+        API from there and show it in my app.
+        There are API for songs but I could not find any API for ringtones.
+        Hence I will use my own hosted ringtones. </string>
+    <string name="paymentInfo">This app will be using Google In App Billing for processing payments.
+    </string>
+    <string name="buyButton">Buy All Ringtones</string>
+    <string name="backToHome">Back To Home</string>
+</resources>

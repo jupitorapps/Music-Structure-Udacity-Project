@@ -1,0 +1,24 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/cardStyle">
+    <RelativeLayout
+        android:id="@+id/otherSoundCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/otherSoundCardImage"
+            style="@style/cardImageViewStyle"
+            android:contentDescription="@string/otherSounds"
+            android:src="@drawable/othersounds"/>
+
+        <TextView
+            style="@style/cardTextViewStyle"
+            android:id="@+id/otherSoundText"
+            android:text="@string/otherSounds" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,24 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/cardStyle">
+    <RelativeLayout
+        android:id="@+id/hindiSongCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hindiSongCardImage"
+            style="@style/cardImageViewStyle"
+            android:contentDescription="@string/hindiSongRingtone"
+            android:src="@drawable/hindisong"/>
+
+        <TextView
+            style="@style/cardTextViewStyle"
+            android:id="@+id/hindiSongText"
+            android:text="@string/hindiSongRingtone" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
